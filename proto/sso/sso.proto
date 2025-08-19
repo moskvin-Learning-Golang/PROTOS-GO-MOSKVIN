@@ -32,7 +32,7 @@ message LoginRequest {
 }
 
 message LoginResponse {
-	string toker = 1;
+	string token = 1;
 }
 
 message IsAdminRequest {
