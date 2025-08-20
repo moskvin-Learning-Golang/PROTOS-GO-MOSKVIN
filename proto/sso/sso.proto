@@ -14,6 +14,10 @@ service Auth {
 	// protoc -I=proto proto/sso/sso.proto --go_out=./gen/go/sso --go_opt=paths=source_relative --go-grpc_out=./gen/go/sso --go-grpc_opt=paths=source_relative 
 	// эта команда не генерирует лишнюю подпапку
 	// protoc -I=proto proto/sso/sso.proto --go_out=./gen/go/sso --go_opt=paths=source_relative --go-grpc_out=./gen/go/sso --go-grpc_opt=paths=source_relative
+	
+	// НОВАЯ КОМАНДА 20 АВГУСТА
+	// protoc -I=PROTOS-GO-MOSKVIN/proto -I="C:/Users/Moskv/Documents/dev/golang learn/protoc-gen-validate" PROTOS-GO-MOSKVIN/proto/sso/sso.proto --go_out=PROTOS-GO-MOSKVIN/gen/go --go_opt=paths=source_relative --go-grpc_out=PROTOS-GO-MOSKVIN/gen/go --go-grpc_opt=paths=source_relative --validate_out="lang=go:PROTOS-GO-MOSKVIN/gen/go"
+	
 	//описываем ручки Api за которые мы будем дергать
 
 
