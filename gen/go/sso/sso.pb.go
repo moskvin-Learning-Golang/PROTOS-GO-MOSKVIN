@@ -314,10 +314,10 @@ var File_sso_sso_proto protoreflect.FileDescriptor
 
 const file_sso_sso_proto_rawDesc = "" +
 	"\n" +
-	"\rsso/sso.proto\x12\x04auth\x1a\x17validate/validate.proto\"C\n" +
-	"\x0fRegisterRequest\x12\x14\n" +
-	"\x05email\x18\x01 \x01(\tR\x05email\x12\x1a\n" +
-	"\bpassword\x18\x02 \x01(\tR\bpassword\"+\n" +
+	"\rsso/sso.proto\x12\x04auth\x1a\x17validate/validate.proto\"m\n" +
+	"\x0fRegisterRequest\x12\x1d\n" +
+	"\x05email\x18\x01 \x01(\tB\a\xfaB\x04r\x02`\x01R\x05email\x12;\n" +
+	"\bpassword\x18\x02 \x01(\tB\x1f\xfaB\x1cr\x1a\x10\b2\x16^[A-Za-z0-9!@#$%^&*]+$R\bpassword\"+\n" +
 	"\x10RegisterResponse\x12\x17\n" +
 	"\auser_id\x18\x01 \x01(\x03R\x06userId\"`\n" +
 	"\fLoginRequest\x12\x1d\n" +

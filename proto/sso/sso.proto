@@ -27,8 +27,11 @@ service Auth {
 }
 
 message RegisterRequest {
-	string email = 1;
-	string password = 2;
+	string email = 1 [(validate.rules).string = {email: true}];;
+	string password = 2 [(validate.rules).string = {
+        min_len: 8,
+        pattern: "^[A-Za-z0-9!@#$%^&*]+$"
+    }];
 }
 
 message RegisterResponse {
